@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    
+    <section class="sub-header">
+        <nav> 
+            <a href="index.html"><img src="images/logo.png" class="logo"></a> 
+            <div class="nav-links" id="navLinks"> 
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="news.html">NEWS</a></li>
+                    <li><a href="uploadPage.php">UPLOAD</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()" ></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+<!----------------------------- Contact Us   ---------------------------------->
+ <section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2978.1642622791232!2d44.718976276734196!3d41.71697417548595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40447371b40dc741%3A0xaa9f66639d890960!2z4YOX4YOh4YOjIOGDm-GDlC0xMSDhg5nhg53hg6Dhg57hg6Phg6Hhg5ggKOGDkuGDkOGDnOGDmOGDleGDmCk!5e0!3m2!1ska!2sge!4v1686695268809!5m2!1ska!2sge" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ </section>
+
+ <form class="form" id="comments-form" method="POST" action="submit_comment.php">
+    <h2>Leave us a message.</h2>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname"><br>
+    <label for="email">Email:</label><br>
+    <input type="text" id="email" name="email"><br>
+    <label for="comment">Comment:</label><br>
+    <textarea id="comment" name="comment"></textarea><br>
+    <input class="post-comment" type="submit" value="Submit" >
+  </form>
+
+
+<!-- Container to display comments -->
+<div id="comments-container">
+  <!-- Comments will be displayed here -->
+</div>
+ 
+<!----------------------------- Contact Us   ---------------------------------->
+
+    <section class="footer" >
+        <h4>About Us</h4>
+        <p class="contact-us-txt">
+            Our project was born within the university when we encountered the very same needs that our app now addresses. As students ourselves, we experienced the
+            challenges of studying and wanted to find a solution that could make 
+            the process more efficient, engaging, and enjoyable.Driven by our shared experiences and a passion for innovation, 
+            we embarked on a journey to create an application that would revolutionize the way people approach learning.
+            With a deep understanding of the frustrations and limitations students face, we set out to develop a comprehensive tool that could integrate seamlessly into educational environments.
+        </p>
+        <div class="icons">
+            <a href="https://www.facebook.com/Labadze.18/" target="_blank"><i class="fa fa-facebook"  ></i></a>
+            <!-- <a href="" target="_blank"><i class="fa fa-twitter"  ></i></a> -->
+            <a href="https://www.instagram.com/labadzee_/" target="_blank"><i class="fa fa-instagram" ></i></a>
+            <a href="https://www.linkedin.com/in/bacholabadze/" target="_blank"><i class="fa fa-linkedin"  ></i></a>
+            <!-- <a href="" target="_blank"><i class="fa fa-youtube-play" ></i></a> -->
+    
+        </div>
+    <p>Created By Bacho Labadze</p>
+
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/comments.js"></script>
+</body>
+</html>

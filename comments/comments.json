@@ -1,0 +1,14 @@
+[
+    {
+        "fname": "Joe",
+        "lname": "Doe",
+        "email": "joedoe@gmail.com",
+        "comment": "Good job"
+    },
+    {
+        "fname": "Maxim",
+        "lname": "White",
+        "email": "mwhite@yahoo.com",
+        "comment": "Im interested!"
+    }
+]
